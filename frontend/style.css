@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    /* Background Dark Blue */
+    background: #0a0f1d;
+    /* Teks biru muda */
+    color: #cfe1ff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    /* Biru terang untuk judul */
+    color: #4da6ff;
+}
+
+.card {
+    /* Panel biru gelap */
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 15px;
+    /* Bayangan biru */
+    box-shadow: 0 4px 12px rgba(0, 64, 128, 0.4);
+    border: 1px solid #1b2f63;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    /* Border biru terang */
+    border: 2px solid #1f4fff;
+    border-radius: 8px;
+    outline: none;
+    background: #0b1328;
+    color: #e6ecff;
+}
+
+input::placeholder {
+    color: #7f8bb2;
+}
+
+input:focus {
+    /* Border biru neon saat fokus */
+    border-color: #4da6ff;
+    box-shadow: 0 0 0 3px rgba(77,166,255,0.3);
+}
+
+button {
+    background: #1f4fff; /* Biru utama */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: #1536b7; /* Biru lebih gelap saat hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background: #1b2f63; /* Header biru gelap */
+    padding: 10px;
+    color: #cfe1ff;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #0f1b3a;
+    color: #dce7ff;
+}
+
+.btn-edit {
+    background: #4da6ff; /* Biru terang */
+}
+
+.btn-hapus {
+    background: #ef4444; /* Merah untuk hapus */
+    margin-left: 5px;
+}
